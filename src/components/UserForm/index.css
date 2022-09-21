@@ -1,0 +1,51 @@
+h2 {
+  text-align: center;
+  margin: 40px 0;
+}
+
+form {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0 auto;
+}
+
+.errors {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+label {
+  margin-right: 5px;
+}
+
+.text-input {
+  height: 20px;
+}
+
+.phone-type {
+  margin-left: 10px;
+  height: 25px;
+}
+
+.email-input {
+  margin-left: 6px;
+}
+
+.submit-button {
+  background-color: white;
+  font-weight: bold;
+  width: 100px;
+  align-self: center;
+  border-radius: 7px;
+  padding: 3px 5px;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
